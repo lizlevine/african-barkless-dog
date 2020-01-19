@@ -30,7 +30,8 @@ nav a {
 
 h1 {
   font-family: Helvetica;
-  margin-left: 30px;
+  margin: 60px 30px 40px 30px;
+  padding-left: 30px;
 }
 
 h2 {
@@ -38,6 +39,7 @@ h2 {
   color: gray;
   opacity: 0.5;
   margin-left: 30px;
+  padding-left: 30px;
 }
 
 nav ul {
@@ -58,18 +60,17 @@ nav li {
 p {
   font-family: Arial;
   color: black;
-  width: 80%;
-  padding: 5px;
+  padding-left: 30px;
   margin-left: 30px;
   margin-right: 70px;
 }
 
 img {
-  padding: 30px;
+  padding: 50px;
 }
 
 footer {
-  padding: 30px 0;
+  /* padding: 30px 0;
   clear: both;
   font-size: 12px;
   font-family: Helvetica;
@@ -78,8 +79,20 @@ footer {
   background: #666666;
   opacity: 0.25;
   margin-top: 20px;
-  height: 3px;
-  /* position: fixed;
-  left: 0;
-  bottom: 0; */
+  height: 3px; */
+
+  background: #666666;
+  opacity: 0.5;
+  color: #fff;
+  padding: 30px 0;
+  clear: both;
+  border-top: 8px solid lightcyan;
+  color: #ccc;
+  font-size: 12px;
+  text-align: center;
+  width: 100%;
+  position: fixed;
+  width: 100%;
+  bottom: 0px;
+  left: 0px;
 }
