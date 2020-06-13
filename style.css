@@ -25,21 +25,29 @@ nav a {
   line-height: 10px;
   color: #999;
   text-decoration: none;
-  border-left: 1px solid #efefef;
+  border-left: 2px solid #efefef;
+  font-size: 18px;
+  /* border-left: 1px solid gray; */
+}
+
+nav a:hover {
+  cursor: pointer;
+  color: tomato;
+  transform: scale(1.09);
 }
 
 h1 {
   font-family: Helvetica;
-  margin: 60px 30px 40px 30px;
-  padding-left: 30px;
+  margin: 60px 30px 40px 100px;
+  padding-left: 50px;
 }
 
 h2 {
   font-family: Helvetica;
   color: gray;
-  opacity: 0.5;
-  margin-left: 30px;
-  padding-left: 30px;
+  opacity: 0.75;
+  padding: 40px 0 30px 50px;
+  margin-left: 100px;
 }
 
 nav ul {
@@ -60,13 +68,15 @@ nav li {
 p {
   font-family: Arial;
   color: black;
-  padding-left: 30px;
-  margin-left: 30px;
-  margin-right: 70px;
+  padding-left: 50px;
+  margin-left: 100px;
+  margin-right: 350px;
+  font-size: 20px;
 }
 
 img {
   padding: 50px;
+  margin-left: 100px;
 }
 
 footer {
