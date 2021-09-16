@@ -47,7 +47,7 @@ h2 {
   color: gray;
   opacity: 0.75;
   padding: 40px 0 30px 20px;
-  margin-left: 80px;
+  margin-left: 120px;
 }
 
 nav ul {
@@ -78,6 +78,10 @@ img {
   margin-bottom: 100px;
   margin-left: 100px;
   padding-top: 50px;
+}
+
+.container {
+  margin-bottom: 50px;
 }
 
 footer {
